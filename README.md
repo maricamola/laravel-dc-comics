@@ -6,3 +6,8 @@
 **Steps**
 
 1. Creo il layout
+2. Creo il db da phpmyadmin
+3. Collego il database al progetto (in .env)
+4. Lancio comando per il controller **php artisan make:controller PageController**
+5. Aggiorno le routes
+6. Collego le pagine in modo da renderle navigabili
