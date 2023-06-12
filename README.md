@@ -13,4 +13,6 @@
 6. Collego le pagine in modo da renderle navigabili
 7. Creo model,migration,controller con un comando **php artisan make:model Comic -m -r**
 8. Nella cartella config importo array con i dati che mi serviranno per popolare la tabella
+9. Inserisco le colonne della mia tabella in migrations
+10. Lancio il seeder
 
