@@ -11,3 +11,6 @@
 4. Lancio comando per il controller **php artisan make:controller PageController**
 5. Aggiorno le routes
 6. Collego le pagine in modo da renderle navigabili
+7. Creo model,migration,controller con un comando **php artisan make:model Comic -m -r**
+8. Nella cartella config importo array con i dati che mi serviranno per popolare la tabella
+
