@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('slug');
             $table->text('description');
-            $table->string('thumb');
+            $table->text('thumb');
             $table->string('series');
             $table->string('type');
             $table->timestamps();
