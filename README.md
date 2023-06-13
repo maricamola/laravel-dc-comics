@@ -15,4 +15,11 @@
 8. Nella cartella config importo array con i dati che mi serviranno per popolare la tabella
 9. Inserisco le colonne della mia tabella in migrations
 10. Lancio il seeder
-
+11. Con un ciclo stampo i dati in pagina
+12. Creo una seconda pagina di atterraggio per la "show"
+13. Creo file show per poter visualizzare i dettagli del prodotto
+14. Aggiungo una nuova route per l'inserimento di un nuovo prodotto
+15. Inserisco nel nuovo file un form 
+16. Creo una nuova view per visualizzare i dati inviati dal form
+17. Tramite il metodo fillable salvo i dati del form 
+18. Aggiungo nell'elenco il nuovo prodotto
