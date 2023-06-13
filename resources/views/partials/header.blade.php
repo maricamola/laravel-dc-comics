@@ -11,7 +11,7 @@
             <a class="nav-link" href="{{ route('comics.index') }}">Elenco fumetti</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('comics.create') }}">Inserisci nuovo fumetto (comic)</a>
+            <a class="nav-link" href="{{ route('comics.create') }}">Inserisci nuovo fumetto</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ route('contacts') }}">Contatti</a>

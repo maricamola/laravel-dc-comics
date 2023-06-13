@@ -42,16 +42,20 @@ class ComicController extends Controller
     public function store(Request $request)
     {
         //Ricevo i dati dal form
-        $form_data=$request->all();
+        $form_data = $request->all();
         // dd($form_data);
 
         $new_comic = new Comic();
-        $new_comic->title = $form_data['title'];
-        $new_comic->slug = Comic::generateSlug($new_comic->title);
-        $new_comic->thumb = $form_data['thumb'];
-        $new_comic->series = $form_data['series'];
-        $new_comic->description = $form_data['description'];
-        $new_comic->type = $form_data['type'];
+        // $new_comic->title = $form_data['title'];
+        // $new_comic->slug = Comic::generateSlug($new_comic->title);
+        // $new_comic->thumb = $form_data['thumb'];
+        // $new_comic->series = $form_data['series'];
+        // $new_comic->description = $form_data['description'];
+        // $new_comic->type = $form_data['type'];
+
+        $form_data['slug'] = Comic::generateSlug($form_data['title']);
+
+        $new_comic->fill($form_data);
 
         $new_comic->save();
 
