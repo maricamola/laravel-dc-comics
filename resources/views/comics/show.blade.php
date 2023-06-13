@@ -11,7 +11,7 @@
 
     <div class="row row-cols-3 d-flex justify-content-center">
         <div class="col">
-            <img src="{{ $comic->thumb }}" alt="thumb" style="width: 80%">
+            <img src="{{ $comic->thumb }}" alt="thumb" style="width: 70%">
         </div>
         <div class="col">
             <div class="series"><h4>{{ $comic->series }}</h4></div>

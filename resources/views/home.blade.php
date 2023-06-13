@@ -7,8 +7,8 @@
 @section('content')
 
 <main>
-<div class="container">
-    <h1>Home</h1>
+<div class="container text-center pt-5">
+    <h1>Welcome!</h1>
 </div>
 </main>
 

@@ -30,7 +30,10 @@
                     {{-- <td>{{ $comic->thumb }}</td> --}}
                     <td>{{ $comic->series }}</td>
                     <td>{{ $comic->type }}</td>
-                    <td><a href="{{ route("comics.show" , $comic->id) }}" class="btn btn-success">VAI</a></td>
+                    <td>
+                        <a href="{{ route("comics.show" , $comic) }}" class="btn btn-success">VAI</a>
+                        <a href="#" class="btn btn-primary">MODIFICA</a>
+                    </td>
                 </tr>
             @endforeach
 
