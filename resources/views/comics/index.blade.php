@@ -2,6 +2,9 @@
 
 @section('content')
 
+@section('title')
+    Elenco fumetti
+@endsection
 
 <div class="container my-5">
     <h1>Elenco fumetti</h1>
@@ -15,6 +18,7 @@
                 <th scope="col">Copertina</th> --}}
                 <th scope="col">Serie</th>
                 <th scope="col">Tipo</th>
+                <th scope="col">Azioni</th>
             </tr>
         </thead>
         <tbody>
@@ -26,7 +30,7 @@
                     {{-- <td>{{ $comic->thumb }}</td> --}}
                     <td>{{ $comic->series }}</td>
                     <td>{{ $comic->type }}</td>
-                    <td><button class="btn btn-success">VAI</button></td>
+                    <td><a href="{{ route("comics.show" , $comic->id) }}" class="btn btn-success">VAI</a></td>
                 </tr>
             @endforeach
 
